@@ -140,7 +140,7 @@ const ScrapPages = async (Pages /* , linkPage */, headers) => {
     retryLimit: 3,
     retryDelay: 1000,
     puppeteerOptions: {
-      headless: false,
+      headless: true,
       args: [
         "--autoplay-policy=user-gesture-required",
         "--disable-background-networking",
